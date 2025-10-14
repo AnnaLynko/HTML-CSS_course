@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>Форма заявки на работу в зоопарке</h2> 
+   <div>
+        <i>Пожалуйста, заполните таблицу. Обязательные поля отмечены <font color="red">*</font></i>
+   </div>
+   <form>
+    <fieldset style="width: 700px;">
+        <legend><b>Контактная информация</b></legend>
+        <p align="left">
+            <label for="name">Имя<font color="red">*</font></label>
+            <input type="text" name="name" id="name" required size="50">
+        </p>
+        <p align="left">
+            <label for="phone" style="width: 200px;">Телефон</label>
+            <input type="tel" name="phone" id="phone" size="50">
+        </p>
+        <p align="left">
+            <label for="email">Email<font color="red">*</font></label>
+            <input type="email" name="name" id="email" required size="50">
+        </p>
+    </fieldset>
+    <fieldset style="width: 700px;">
+        <legend><b>Персональная информация</b></legend>
+        <p align="left">
+            <label for="age">Возраст<font color="red">*</font></label>
+            <input type="number" min="0" max="99" name="age" id="age" required size="50">
+        </p>
+        <p>
+            <label for="sex">Пол</label>
+            <select name="sex" id="sex">
+                <option>Мужчина</option>
+                <option>Женщина</option>
+            </select>
+        </p>
+        <p>
+            <label for="area">Перечислите личные качества</label>
+            <textarea name="area" id="" cols="30" rows="10"></textarea>
+        </p>
+    </fieldset>
+    <fieldset style="width: 700px;">
+        <legend><b>Выбирите ваших любимых животных</b></legend>
+        <div>
+            <input type="checkbox" name="pet1">
+            <label for="pet1">Зебра</label>
+
+            <input type="checkbox" name="pet2">
+            <label for="pet2">Слон</label>
+
+            <input type="checkbox" name="pet3">
+            <label for="pet3">Кошак</label>
+
+            <input type="checkbox" name="pet4">
+            <label for="pet4">Антилопа</label>
+        </div>
+        <div>
+            <input type="checkbox" name="pet5">
+            <label for="pet5">Анаконда</label>
+
+            <input type="checkbox" name="pet6">
+            <label for="pet6">Голубь</label>
+        
+            <input type="checkbox" name="pet7">
+            <label for="pet7">Человек</label>
+
+            <input type="checkbox" name="pet8">
+            <label for="pet8">Краб</label>
+        </div>
+    </fieldset>
+    <br>
+    <input type="submit" value="Отправить информацию">
+    
+   </form>
+</body>
+</html>
