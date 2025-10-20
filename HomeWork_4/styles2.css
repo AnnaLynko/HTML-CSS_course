@@ -1,0 +1,61 @@
+body{
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bg_green{
+    background-color: green;
+    color: white;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.orange{
+    color: orange;
+}
+
+.blu{
+    color: blue;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.grey{
+    color: grey;
+}
+
+.fat{
+    font-weight: bold;
+}
+
+.first_letter{
+    font-size: 30px;
+}
+
+.right{
+   text-align: right 
+}
+
+table{
+    margin-bottom: 40px;
+}
+
+td{
+    text-align: center;
+    width: 80px;
+}
+
+.left{
+    text-align: left;
+    width: 140px;
+}
