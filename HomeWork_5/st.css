@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.blu{
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    margin: 0;
+}
+
+.orange{
+    width: 300px;
+    border: 5px solid orange;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    box-shadow: 0px 0px 15px 2px #0000007d;
+    margin: 0;
+}
+
+.green{
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    margin: 0;
+}
+
+.topBlock{
+    color: white;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.BGblu{
+    background-color: #2AC2D5;
+    border-radius: 5px 5px 0 0;
+}
+
+.BGorange{
+    background-color: orange;
+    height: 40px;
+}
+
+.BGgreen{
+    background-color: #13B89A;
+    border-radius: 5px 5px 0 0;
+}
+
+.IG {
+    color: #5e5f61;
+    font-weight: normal;
+}
+
+p {
+    font-size: 50px;
+    font-weight: bold;
+    color: #5e5f61;
+    margin: 0;
+}
+
+sub,
+sup {
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+}
+
+sub {
+    top: -5px;
+    left: -13px;
+}
+
+sup {
+    top: -10px;
+    left: 12px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    width: 90%;
+    margin: 10px auto;
+    font-family: "Oswald", sans-serif;
+}
+
+li{
+    color:#747578;
+    padding: 3px 0 3px 70px;
+    background: url('arrow.png') no-repeat;
+    background-position: 32px 5px;
+}
+
+li:nth-child(odd){
+    background-color:#EDF5FD;
+}
+
+li:nth-child(even){
+    background-color: #F5F5F6;
+}
+
+.ET{
+    display: inline-block;
+    width: 80%;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    margin: 10px 0 30px 0;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 3px;
+    box-shadow: 0 4px 2px rgb(175, 47, 1);
+}
+
+.ETblue{
+    background-color: #2F70A8;
+    border: 1px solid #2F70A8;
+    box-shadow: 0 4px 2px #13426B;
+}
+
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.mainContainer {
+    display: flex;
+}
+
