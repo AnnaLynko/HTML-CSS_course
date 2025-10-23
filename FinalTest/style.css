@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainConteiner{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.block{
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+h2{
+    color: #8FADF0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+
+p{
+    color: gray;
+}
